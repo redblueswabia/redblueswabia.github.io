@@ -1,0 +1,1 @@
+import{T as e}from"./Title-8489a382.js";import{W as r,_ as t}from"./index-9447cd11.js";const o={__name:"Bilder",setup(s){return(a,l)=>(r(),t(e,{title:"Bilder",subtitle:"Bildergalerie unseres Fanclubs und der Ausfahrten"}))}};export{o as default};
