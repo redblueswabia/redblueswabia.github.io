@@ -1,0 +1,1 @@
+import{T as t}from"./Title-6ecba102.js";import{W as e,_ as a}from"./index-3c04b17e.js";const _={__name:"Kontakt",setup(o){return(r,n)=>(e(),a(t,{title:"Kontakt",subtitle:"Nimm gerne Kontakt mit uns auf"}))}};export{_ as default};
