@@ -1,1 +1,0 @@
-import{T as t}from"./Title-8489a382.js";import{W as a,_ as e}from"./index-9447cd11.js";const _={__name:"Vorstandschaft",setup(r){return(s,o)=>(a(),e(t,{title:"Vorstandschaft",subtitle:"Die Vorstandschaft hinter dem Fanclub"}))}};export{_ as default};
