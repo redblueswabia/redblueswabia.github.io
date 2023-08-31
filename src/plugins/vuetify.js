@@ -14,6 +14,15 @@ export default createVuetify({
           "on-background": "#FEFDE0",
         },
       },
+      /*light: {
+        colors: {
+          primary: "#033A77",
+          secondary: "#E41523",
+          tertiary: "#FEFDE0",
+          background: "#edf0f6",
+          "on-background": "#001123",
+        },
+      },*/
     },
   },
 });
