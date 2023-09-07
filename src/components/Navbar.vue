@@ -9,12 +9,13 @@
         src="/rbs.svg"
       />
       <div class="hidden-sm-and-down navbar">
-        <!--        <v-btn to="/" variant="text" :ripple="false">Home</v-btn>-->
-        <v-btn to="./aktuelles" variant="text" :ripple="false">Aktuelles</v-btn>
+        <v-btn to="./news" variant="text" :ripple="false">News</v-btn>
+        <v-btn to="./ausfahrten" variant="text" :ripple="false">
+          Ausfahrten
+        </v-btn>
         <v-btn to="./vorstandschaft" variant="text" :ripple="false">
           Vorstandschaft
         </v-btn>
-        <v-btn to="./bilder" variant="text" :ripple="false">Bilder</v-btn>
         <v-btn to="./mitglied-werden" variant="text" :ripple="false">
           Mitglied werden
         </v-btn>
@@ -45,8 +46,16 @@
       style="top: 20px; right: 20px"
       @click="closeDrawer"
     ></v-btn>
-    <v-btn to="./aktuelles" @click="closeDrawer" variant="text" :ripple="false">
-      Aktuelles
+    <v-btn to="./news" @click="closeDrawer" variant="text" :ripple="false">
+      News
+    </v-btn>
+    <v-btn
+      to="./ausfahrten"
+      @click="closeDrawer"
+      variant="text"
+      :ripple="false"
+    >
+      Ausfahrten
     </v-btn>
     <v-btn
       to="./vorstandschaft"
@@ -55,9 +64,6 @@
       :ripple="false"
     >
       Vorstandschaft
-    </v-btn>
-    <v-btn to="./bilder" @click="closeDrawer" variant="text" :ripple="false">
-      Bilder
     </v-btn>
     <v-btn
       to="./mitglied-werden"

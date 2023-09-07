@@ -8,9 +8,9 @@ const routes = [
     component: () => import("@/views/Home.vue"),
   },
   {
-    path: "/aktuelles",
-    name: "Aktuelles",
-    component: () => import("@/views/Aktuelles.vue"),
+    path: "/ausfahrten",
+    name: "Ausfahrten",
+    component: () => import("@/views/Ausfahrten.vue"),
   },
   {
     path: "/vorstandschaft",
@@ -18,9 +18,9 @@ const routes = [
     component: () => import("@/views/Vorstandschaft.vue"),
   },
   {
-    path: "/bilder",
-    name: "Bilder",
-    component: () => import("@/views/Bilder.vue"),
+    path: "/news",
+    name: "News",
+    component: () => import("@/views/News.vue"),
   },
   {
     path: "/mitglied-werden",

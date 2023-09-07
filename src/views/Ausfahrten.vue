@@ -1,6 +1,6 @@
 <template>
   <Title
-    title="Aktuelles"
+    title="Ausfahrten"
     subtitle="Spielplan von Heidenheim und Ausfahrten"
   ></Title>
   <div class="mt-5">
