@@ -214,6 +214,30 @@ const ausfahrten = [
   },
   {
     spieltag: 3,
+    hasBericht: true,
+    images: ["./berichte/fotos/3-1.webp", "./berichte/fotos/3-2.webp"],
+    title: "Flutlichtspiel beim BVB in Dortmund",
+  },
+  {
+    spieltag: 4,
+    hasBericht: true,
+    images: ["./berichte/fotos/4-1.webp"],
+    title: "Ausfahrt Bundesliga Heimspiel gegen Werder Bremen",
+  },
+  {
+    spieltag: 5,
+    hasBericht: false,
+    images: [],
+    title: "",
+  },
+  {
+    spieltag: 6,
+    hasBericht: false,
+    images: [],
+    title: "",
+  },
+  {
+    spieltag: 8,
     hasBericht: false,
     images: [],
     title: "",
