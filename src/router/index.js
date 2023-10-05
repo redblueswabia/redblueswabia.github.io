@@ -18,11 +18,6 @@ const routes = [
     component: () => import("@/views/Vorstandschaft.vue"),
   },
   {
-    path: "/news",
-    name: "News",
-    component: () => import("@/views/News.vue"),
-  },
-  {
     path: "/mitglied-werden",
     name: "Mitglied werden",
     component: () => import("@/views/Mitglied.vue"),

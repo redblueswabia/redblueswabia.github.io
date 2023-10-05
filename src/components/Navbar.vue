@@ -9,7 +9,7 @@
         src="/rbs.svg"
       />
       <div class="hidden-sm-and-down navbar">
-        <v-btn to="./news" variant="text" :ripple="false">News</v-btn>
+        <v-btn to="./" variant="text" :ripple="false">Home</v-btn>
         <v-btn to="./ausfahrten" variant="text" :ripple="false">
           Ausfahrten
         </v-btn>
@@ -46,8 +46,8 @@
       style="top: 20px; right: 20px"
       @click="closeDrawer"
     ></v-btn>
-    <v-btn to="./news" @click="closeDrawer" variant="text" :ripple="false">
-      News
+    <v-btn to="./" @click="closeDrawer" variant="text" :ripple="false">
+      Home
     </v-btn>
     <v-btn
       to="./ausfahrten"

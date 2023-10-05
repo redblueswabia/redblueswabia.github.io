@@ -4,7 +4,10 @@
       {{ title }}
     </span>
   </div>
-  <h1 :class="display.smAndDown.value ? 'text-h6' : 'text-h5'">
+  <h1
+    v-if="subtitle !== ''"
+    :class="display.smAndDown.value ? 'text-h6' : 'text-h5'"
+  >
     {{ subtitle }}
   </h1>
 </template>
@@ -19,8 +22,7 @@ defineProps({
   },
   subtitle: {
     type: String,
-    default:
-      "Der erste offizielle Fanclub des 1. FC Heidenheim aus Oberschwaben",
+    default: "",
   },
 });
 

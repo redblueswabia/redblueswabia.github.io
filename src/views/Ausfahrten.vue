@@ -226,9 +226,15 @@ const ausfahrten = [
   },
   {
     spieltag: 5,
-    hasBericht: false,
-    images: [],
-    title: "",
+    hasBericht: true,
+    images: [
+      "./berichte/fotos/5-1.webp",
+      "./berichte/fotos/5-2.webp",
+      "./berichte/fotos/5-3.webp",
+      "/berichte/fotos/5-4.webp",
+      "./berichte/fotos/5-5.webp",
+    ],
+    title: "Niederlage in Leverkusen",
   },
   {
     spieltag: 6,
