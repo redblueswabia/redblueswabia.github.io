@@ -20,8 +20,17 @@
       </span>
     </div>
   </div>
-  <v-btn color="secondary" href="./mitgliedsantrag.docx" target="_blank">
-    Mitgliedsantrag downloaden
+  <h2 class="text-h5 mb-4 pt-4">Mitgliedsantrag downloaden</h2>
+  <v-btn
+    class="mr-4"
+    color="secondary"
+    href="./mitgliedsantrag.docx"
+    target="_blank"
+  >
+    Antrag herunterladen (Word-Datei)
+  </v-btn>
+  <v-btn color="secondary" href="./mitgliedsantrag.pdf" target="_blank">
+    Antrag herunterladen (PDF-Datei)
   </v-btn>
 </template>
 

@@ -177,6 +177,7 @@
     ></v-btn>
     <h1 class="pa-4">{{ currentAusfahrt.title }}</h1>
     <ImageCarousel
+      v-if="currentAusfahrt.images.length > 0"
       style="max-width: 800px"
       class="px-4"
       :slider-images="currentAusfahrt.images"
@@ -238,15 +239,28 @@ const ausfahrten = [
   },
   {
     spieltag: 6,
-    hasBericht: false,
+    hasBericht: true,
     images: [],
-    title: "",
+    title: "Ausfahrt am 30.09.2023 zum Heimspiel gegen Union Berlin",
   },
   {
     spieltag: 8,
-    hasBericht: false,
+    hasBericht: true,
     images: [],
-    title: "",
+    title: "Ausfahrt Heimspiel gegen den FC Augsburg am 22.10.2023",
+  },
+  {
+    spieltag: 10,
+    hasBericht: true,
+    images: [],
+    title: "Ausfahrt Heimspiel gegen den VFB Stuttgart am 05.11.2023",
+  },
+  {
+    spieltag: 11,
+    hasBericht: true,
+    images: [],
+    title:
+      "Ausfahrt Auswärtsspiel am 11.11.2023 nach München in die Allianz Arena",
   },
 ];
 
