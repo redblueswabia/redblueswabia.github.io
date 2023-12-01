@@ -262,6 +262,23 @@ const ausfahrten = [
     title:
       "Ausfahrt Auswärtsspiel am 11.11.2023 nach München in die Allianz Arena",
   },
+  {
+    spieltag: 12,
+    hasBericht: true,
+    images: [
+      "./berichte/fotos/12-1.webp",
+      "./berichte/fotos/12-2.webp",
+      "./berichte/fotos/12-3.webp",
+      "./berichte/fotos/12-4.webp",
+    ],
+    title: "Ausfahrt Heimspiel Heidenheim gegen Bochum",
+  },
+  {
+    spieltag: 13,
+    hasBericht: false,
+    images: [],
+    title: "",
+  },
 ];
 
 onMounted(() => {
