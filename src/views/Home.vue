@@ -13,7 +13,7 @@
       v-for="item in news.reverse()"
       :key="item.erschienen"
       cols="12"
-      md="6"
+      :md="item.fullWidth ? 12 : 6"
     >
       <NewsTile
         :image="item.image"
@@ -26,8 +26,8 @@
       />
     </v-col>
   </v-row>
-  <div class="mb-3">Unsere erste Mitgliederversammlung:</div>
-  <ImageCarousel :slider-images="sliderImages" />
+  <!--  <div class="mb-3">Unsere erste Mitgliederversammlung:</div>
+  <ImageCarousel :slider-images="sliderImages" />-->
   <div class="mt-10">
     Wenn du unserem Fanclub beitreten möchtest, schau gerne
     <router-link to="./mitglied-werden">hier</router-link> vorbei. <br /><br />
@@ -68,6 +68,7 @@ const news = [
     link: "https://www.fupa.net/news/was-der-sv-winterstettenstadt-besser-gemacht-hat-als-der-fch-2970328?utm_source=fupa&utm_medium=sharebutton&utm_campaign=share_news",
     linkText: "Zum Artikel",
     isNewsletter: false,
+    fullWidth: false,
   },
   {
     image: "/rbs.svg",
@@ -77,6 +78,17 @@ const news = [
     link: "/newsletter-1.pdf",
     linkText: "Zum Newsletter",
     isNewsletter: true,
+    fullWidth: false,
+  },
+  {
+    image: "/berichte/fotos/gv-2024-1.jpeg",
+    title: "Zweite Mitgliederversammlung",
+    subtitle: "von Stefan Wiedmann, Schriftführer",
+    erschienen: "24.07.2024",
+    link: "/zweite-mitgliederversammlung.pdf",
+    linkText: "Zum Bericht",
+    isNewsletter: false,
+    fullWidth: true,
   },
 ];
 </script>
