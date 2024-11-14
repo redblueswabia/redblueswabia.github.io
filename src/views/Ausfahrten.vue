@@ -207,7 +207,7 @@ const showPreviousMatches = ref(false);
 let currentAusfahrt = reactive({});
 
 const ausfahrten = [
-  {
+  /*{
     spieltag: 2,
     hasBericht: true,
     images: ["./berichte/fotos/2-1.webp", "./berichte/fotos/2-2.webp"],
@@ -278,12 +278,12 @@ const ausfahrten = [
     hasBericht: false,
     images: [],
     title: "",
-  },
+  },*/
 ];
 
 onMounted(() => {
   axios
-    .get("https://api.openligadb.de/getmatchdata/bl1/2023/Heidenheim")
+    .get("https://api.openligadb.de/getmatchdata/bl1/2024/Heidenheim")
     .then((response) => {
       if (response.data.length > 0) {
         for (const element of response.data) {
