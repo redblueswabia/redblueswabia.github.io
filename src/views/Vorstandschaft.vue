@@ -43,11 +43,6 @@ const ausschuss = [
     image: "/ausschuss/gabriel-ruß.webp",
   },
   {
-    name: "Alexander Heber",
-    position: "Beisitzer",
-    image: "/ausschuss/alexander-heber.webp",
-  },
-  {
     name: "Julian Maucher",
     position: "Beisitzer",
     image: "/ausschuss/julian-maucher.webp",
@@ -56,6 +51,16 @@ const ausschuss = [
     name: "Martin Müller",
     position: "Beisitzer",
     image: "/ausschuss/martin-muller.webp",
+  },
+  {
+    name: "Roland Ersing",
+    position: "Beisitzer",
+    image: "/ausschuss/roland-ersing.webp",
+  },
+  {
+    name: "Martin Hopp",
+    position: "Beisitzer",
+    image: "/ausschuss/martin-hopp.webp",
   },
 ];
 </script>
