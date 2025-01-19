@@ -19,7 +19,9 @@
         <v-btn to="./mitglied-werden" variant="text" :ripple="false">
           Mitglied werden
         </v-btn>
-        <v-btn to="./kontakt" variant="text" :ripple="false">Kontakt</v-btn>
+        <v-btn to="./kontakt" variant="text" :ripple="false"
+          >Kontakt & Dokumente</v-btn
+        >
       </div>
       <div class="hidden-md-and-up">
         <v-btn
@@ -73,7 +75,7 @@
       >Mitglied werden</v-btn
     >
     <v-btn to="./kontakt" @click="closeDrawer" variant="text" :ripple="false"
-      >Kontakt</v-btn
+      >Kontakt & Dokumente</v-btn
     >
   </div>
 </template>
