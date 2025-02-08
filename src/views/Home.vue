@@ -88,7 +88,17 @@ const news = [
     link: "/zweite-mitgliederversammlung.pdf",
     linkText: "Zum Bericht",
     isNewsletter: false,
-    fullWidth: true,
+    fullWidth: false,
+  },
+  {
+    image: "/berichte/fotos/spendenubergabe.jpg",
+    title: "Neujahrsfeier und Spendenübergabe",
+    subtitle: "von Stefan Wiedmann, Schriftführer",
+    erschienen: "01.02.2025",
+    link: "/newsletter-2.pdf",
+    linkText: "Zum Bericht",
+    isNewsletter: true,
+    fullWidth: false,
   },
 ];
 </script>
