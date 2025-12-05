@@ -22,6 +22,23 @@
       </div>
     </div>
   </div>
+  <h2 class="text-h5 mb-4 pt-4">Dokumente downloaden</h2>
+  <v-btn
+    color="secondary"
+    href="./vereinssatzung_red-blue-swabia.pdf"
+    target="_blank"
+    class="mt-5 mb-10"
+  >
+    Vereinssatzung
+  </v-btn>
+  <v-btn
+    color="secondary"
+    href="./erziehungsbeauftragung.pdf"
+    target="_blank"
+    class="mt-5 mb-10 ml-4"
+  >
+    Erziehungsbeauftragung
+  </v-btn>
 </template>
 
 <script setup>

@@ -69,7 +69,7 @@ const sliderImages = [
 ];
 
 const news = [
-  /*{
+  {
     image: "/berichte/fotos/2-1.webp",
     title: "Was der SV Winterstettenstadt besser gemacht hat als der FCH",
     subtitle: "Artikel auf FuPa",
@@ -79,7 +79,7 @@ const news = [
     isNewsletter: false,
     fullWidth: false,
   },
-  {
+  /*{
     image: "/rbs.svg",
     title: "Red-Blue Swabia Newsletter #1",
     subtitle: "von Stefan Wiedmann, Schriftführer",
@@ -89,6 +89,16 @@ const news = [
     isNewsletter: true,
     fullWidth: false,
   },*/
+  {
+    image: "/berichte/fotos/spendenubergabe.jpg",
+    title: "Neujahrsfeier und Spendenübergabe",
+    subtitle: "von Stefan Wiedmann, Schriftführer",
+    erschienen: "01.02.2025",
+    link: "/newsletter-2.pdf",
+    linkText: "Zum Bericht",
+    isNewsletter: true,
+    fullWidth: false,
+  },
   {
     image: "/berichte/fotos/gv-2024-1.jpeg",
     title: "Dritte Mitgliederversammlung",
@@ -109,7 +119,6 @@ const news = [
     isNewsletter: false,
     fullWidth: false,
   },
-
   {
     image: "/weihnachten.webp",
     title: "Einladung zur Weihnachtsfeier 2025",
