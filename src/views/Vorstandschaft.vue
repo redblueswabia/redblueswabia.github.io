@@ -48,14 +48,19 @@ const ausschuss = [
     image: "/ausschuss/alexander-heber.webp",
   },
   {
-    name: "Julian Maucher",
-    position: "Beisitzer",
-    image: "/ausschuss/julian-maucher.webp",
-  },
-  {
     name: "Martin Müller",
     position: "Beisitzer",
     image: "/ausschuss/martin-muller.webp",
+  },
+  {
+    name: "Frank Wiedmann",
+    position: "Beisitzer",
+    image: "/ausschuss/frank-wiedmann.webp",
+  },
+  {
+    name: "Stefan Köberle",
+    position: "Beisitzer",
+    image: "/ausschuss/stefan-koeberle.webp",
   },
 ];
 </script>

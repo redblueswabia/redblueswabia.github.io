@@ -142,8 +142,8 @@
                 icon="mdi-check"
                 class="mr-1"
               ></v-icon>
-              <span v-if="item.isFinished">Ausfahrt</span>
-              <span v-else>Ausfahrt geplant</span>
+              <b v-if="item.isFinished">Ausfahrt</b>
+              <b v-else>Ausfahrt geplant</b>
             </div>
             <v-btn
               color="green"
@@ -207,25 +207,31 @@ const showPreviousMatches = ref(false);
 let currentAusfahrt = reactive({});
 
 const ausfahrten = [
+  {
+    spieltag: 20,
+    hasBericht: false,
+    images: [],
+    title: "",
+  },
+  {
+    spieltag: 26,
+    hasBericht: false,
+    images: [],
+    title: "",
+  },
+  {
+    spieltag: 30,
+    hasBericht: false,
+    images: [],
+    title: "",
+  },
+  {
+    spieltag: 32,
+    hasBericht: false,
+    images: [],
+    title: "",
+  },
   /*{
-    spieltag: 2,
-    hasBericht: true,
-    images: ["./berichte/fotos/2-1.webp", "./berichte/fotos/2-2.webp"],
-    title: "Ausfahrt Heimspiel Heidenheim gegen Hoffenheim",
-  },
-  {
-    spieltag: 3,
-    hasBericht: true,
-    images: ["./berichte/fotos/3-1.webp", "./berichte/fotos/3-2.webp"],
-    title: "Flutlichtspiel beim BVB in Dortmund",
-  },
-  {
-    spieltag: 4,
-    hasBericht: true,
-    images: ["./berichte/fotos/4-1.webp"],
-    title: "Ausfahrt Bundesliga Heimspiel gegen Werder Bremen",
-  },
-  {
     spieltag: 5,
     hasBericht: true,
     images: [
@@ -283,7 +289,7 @@ const ausfahrten = [
 
 onMounted(() => {
   axios
-    .get("https://api.openligadb.de/getmatchdata/bl1/2024/Heidenheim")
+    .get("https://api.openligadb.de/getmatchdata/bl1/2025/Heidenheim")
     .then((response) => {
       if (response.data.length > 0) {
         for (const element of response.data) {

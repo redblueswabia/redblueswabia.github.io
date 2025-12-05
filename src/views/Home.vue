@@ -7,6 +7,15 @@
     Red-Blue Swabia wurde gegründet aus guten Freunden und soll eine
     Anlaufstelle für leidenschaftliche FCH-Fans in unserer Region sein.
   </div>
+  <div>Du willst dabei sein? Einfach Antrag herunterladen und uns ausgefüllt zukommen lassen!</div>
+  <v-btn
+    color="secondary"
+    href="./mitgliedsantrag.docx"
+    target="_blank"
+    class="mt-2 mb-10"
+  >
+    Hier Mitgliedsantrag herunterladen!
+  </v-btn>
   <Title title="News"></Title>
   <v-row class="my-6">
     <v-col
@@ -60,7 +69,7 @@ const sliderImages = [
 ];
 
 const news = [
-  {
+  /*{
     image: "/berichte/fotos/2-1.webp",
     title: "Was der SV Winterstettenstadt besser gemacht hat als der FCH",
     subtitle: "Artikel auf FuPa",
@@ -79,14 +88,35 @@ const news = [
     linkText: "Zum Newsletter",
     isNewsletter: true,
     fullWidth: false,
-  },
+  },*/
   {
     image: "/berichte/fotos/gv-2024-1.jpeg",
-    title: "Zweite Mitgliederversammlung",
+    title: "Dritte Mitgliederversammlung",
     subtitle: "von Stefan Wiedmann, Schriftführer",
-    erschienen: "24.07.2024",
-    link: "/zweite-mitgliederversammlung.pdf",
+    erschienen: "15.07.2025",
+    link: "/dritte-mitgliederversammlung.pdf",
     linkText: "Zum Bericht",
+    isNewsletter: false,
+    fullWidth: false,
+  },
+  {
+    image: "/flyer-huettenzauber-2025.webp",
+    title: "Einladung zum Hüttenzauber 2025",
+    subtitle: "von Stefan Wiedmann, Schriftführer",
+    erschienen: "05.12.2025",
+    link: "/flyer-huettenzauber-2025.webp",
+    linkText: "Zum Flyer",
+    isNewsletter: false,
+    fullWidth: false,
+  },
+
+  {
+    image: "/weihnachten.webp",
+    title: "Einladung zur Weihnachtsfeier 2025",
+    subtitle: "von Stefan Wiedmann, Schriftführer",
+    erschienen: "05.12.2025",
+    link: "/einladung-weihnachtsfeier-2025.pdf",
+    linkText: "Zur Einladung",
     isNewsletter: false,
     fullWidth: true,
   },
