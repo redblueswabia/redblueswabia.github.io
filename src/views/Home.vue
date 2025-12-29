@@ -107,17 +107,7 @@ const news = [
     link: "/dritte-mitgliederversammlung.pdf",
     linkText: "Zum Bericht",
     isNewsletter: false,
-    fullWidth: false,
-  },
-  {
-    image: "/flyer-huettenzauber-2025.webp",
-    title: "Einladung zum Hüttenzauber 2025",
-    subtitle: "von Stefan Wiedmann, Schriftführer",
-    erschienen: "05.12.2025",
-    link: "/flyer-huettenzauber-2025.webp",
-    linkText: "Zum Flyer",
-    isNewsletter: false,
-    fullWidth: false,
+    fullWidth: true,
   },
   {
     image: "/weihnachten.webp",
@@ -127,7 +117,17 @@ const news = [
     link: "/einladung-weihnachtsfeier-2025.pdf",
     linkText: "Zur Einladung",
     isNewsletter: false,
-    fullWidth: true,
+    fullWidth: false,
+  },
+  {
+    image: "/flyer-huettenzauber-2025.webp",
+    title: "Hüttenzauber 2025 Rückblick",
+    subtitle: "von Stefan Wiedmann, Schriftführer",
+    erschienen: "29.12.2025",
+    link: "/huettenzauber-rueckblick.pdf",
+    linkText: "Zum Bericht",
+    isNewsletter: false,
+    fullWidth: false,
   },
 ];
 </script>
