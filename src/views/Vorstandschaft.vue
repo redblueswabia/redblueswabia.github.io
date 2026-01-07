@@ -4,18 +4,18 @@
     subtitle="Die Vorstandschaft hinter dem Fanclub"
   ></Title>
   <div class="mt-6">
-    <v-row>
+    <!--<v-row>
       <v-col cols="12">
         <img
           src="/ausschuss/vorstandschaft.webp"
           style="width: 100%; height: auto"
         />
       </v-col>
-    </v-row>
+    </v-row>-->
     <v-row>
       <v-col v-for="item in ausschuss" :key="item.name" cols="12" sm="4" md="3">
         <v-card color="primary">
-          <img :src="item.image" style="width: 100%; height: auto" />
+          <img :src="item.image" style="width: 100%; aspect-ratio: 5 / 3; object-fit: cover" />
           <v-card-title class="text-tertiary">
             {{ item.name }}
           </v-card-title>
