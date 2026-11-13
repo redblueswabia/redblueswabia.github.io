@@ -7,15 +7,30 @@
     Red-Blue Swabia wurde gegründet aus guten Freunden und soll eine
     Anlaufstelle für leidenschaftliche FCH-Fans in unserer Region sein.
   </div>
-  <div>Du willst dabei sein? Einfach Antrag herunterladen und uns ausgefüllt zukommen lassen!</div>
-  <v-btn
-    color="secondary"
-    href="./mitgliedsantrag.docx"
-    target="_blank"
-    class="mt-2 mb-10"
-  >
-    Hier Mitgliedsantrag herunterladen!
-  </v-btn>
+  <v-row>
+    <v-col>
+      <div>Du willst dabei sein? Einfach Antrag herunterladen und uns ausgefüllt zukommen lassen!</div>
+      <v-btn
+        color="secondary"
+        href="./mitgliedsantrag.docx"
+        target="_blank"
+        class="mt-2 mb-10"
+      >
+        Hier Mitgliedsantrag herunterladen!
+      </v-btn>
+    </v-col>
+    <v-col>
+      <div>Für Firmen und Sponsoren haben wir eine Sponsorenmappe erstellt, die man sich über den folgenden Button herunterladen kannst.</div>
+      <v-btn
+        color="secondary"
+        href="./sponsorenmappe.pdf"
+        target="_blank"
+        class="mt-5 mb-10 ml-2"
+      >
+        Sponsorenmappe downloaden
+      </v-btn>
+    </v-col>
+  </v-row>
   <Title title="News"></Title>
   <v-row class="my-6">
     <v-col
@@ -40,7 +55,7 @@
   <div class="mt-10">
     Wenn du unserem Fanclub beitreten möchtest, schau gerne
     <router-link to="./mitglied-werden">hier</router-link> vorbei. <br /><br />
-    Gerne kannst du dir im Folgenden auch unsere Vereinssatzung durchlesen. Für Sponsoren haben wir eine Sponsorenmappe erstellt, die du dir ebenfalls herunterladen kannst. <br />
+    Gerne kannst du dir im Folgenden auch unsere Vereinssatzung durchlesen <br />
   </div>
   <v-btn
     color="secondary"
@@ -63,21 +78,10 @@
 <script setup>
 import { ref } from "vue";
 import Title from "@/components/Title.vue";
-import { useDisplay } from "vuetify";
-import ImageCarousel from "@/views/ImageCarousel.vue";
 import NewsTile from "@/components/NewsTile.vue";
 
-const display = useDisplay();
-const sliderValue = ref(0);
-
-const sliderImages = [
-  "./vereinssitzung.webp",
-  "./vereinssitzung2.webp",
-  "./vereinssitzung3.webp",
-];
-
 const news = [
-  {
+  /*{
     image: "/berichte/fotos/2-1.webp",
     title: "Was der SV Winterstettenstadt besser gemacht hat als der FCH",
     subtitle: "Artikel auf FuPa",
@@ -86,7 +90,7 @@ const news = [
     linkText: "Zum Artikel",
     isNewsletter: false,
     fullWidth: true,
-  },
+  },*/
   /*{
     image: "/rbs.svg",
     title: "Red-Blue Swabia Newsletter #1",
