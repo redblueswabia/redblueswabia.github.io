@@ -25,7 +25,7 @@
         color="secondary"
         href="./sponsorenmappe.pdf"
         target="_blank"
-        class="mt-5 mb-10 ml-2"
+        class="mt-5 mb-10"
       >
         Sponsorenmappe downloaden
       </v-btn>
@@ -65,18 +65,9 @@
   >
     Vereinssatzung downloaden
   </v-btn>
-  <v-btn
-    color="secondary"
-    href="./sponsorenmappe.pdf"
-    target="_blank"
-    class="mt-5 mb-10 ml-2"
-  >
-    Sponsorenmappe downloaden
-  </v-btn>
 </template>
 
 <script setup>
-import { ref } from "vue";
 import Title from "@/components/Title.vue";
 import NewsTile from "@/components/NewsTile.vue";
 
