@@ -39,6 +39,14 @@
   >
     Erziehungsbeauftragung
   </v-btn>
+  <v-btn
+    color="secondary"
+    href="./sponsorenmappe.pdf"
+    target="_blank"
+    class="mt-5 mb-10 ml-4"
+  >
+    Sponsorenmappe
+  </v-btn>
 </template>
 
 <script setup>

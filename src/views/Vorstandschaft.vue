@@ -38,14 +38,19 @@ const ausschuss = [
     image: "/ausschuss/sebastian-christ.webp",
   },
   {
-    name: "Fabian Wiedmann",
+    name: "Stefan Wiedmann",
     position: "2. Vorstand",
-    image: "/ausschuss/fabian-wiedmann.webp",
+    image: "/ausschuss/stefan-wiedmann.webp",
   },
   {
-    name: "Stefan Wiedmann",
+    name: "Martin Hopp",
+    position: "2. Vorstand",
+    image: "/ausschuss/martin-hopp.webp",
+  },
+  {
+    name: "Fabian Wiedmann",
     position: "Schriftführer",
-    image: "/ausschuss/stefan-wiedmann.webp",
+    image: "/ausschuss/fabian-wiedmann.webp",
   },
   {
     name: "Gabriel Ruß",
@@ -61,11 +66,6 @@ const ausschuss = [
     name: "Roland Ersing",
     position: "Beisitzer",
     image: "/ausschuss/roland-ersing.webp",
-  },
-  {
-    name: "Martin Hopp",
-    position: "Beisitzer",
-    image: "/ausschuss/martin-hopp.webp",
   },
   {
     name: "Frank Wiedmann",

@@ -40,7 +40,7 @@
   <div class="mt-10">
     Wenn du unserem Fanclub beitreten möchtest, schau gerne
     <router-link to="./mitglied-werden">hier</router-link> vorbei. <br /><br />
-    Gerne kannst du dir im Folgenden auch unsere Vereinssatzung durchlesen.
+    Gerne kannst du dir im Folgenden auch unsere Vereinssatzung durchlesen. Für Sponsoren haben wir eine Sponsorenmappe erstellt, die du dir ebenfalls herunterladen kannst. <br />
   </div>
   <v-btn
     color="secondary"
@@ -49,6 +49,14 @@
     class="mt-5 mb-10"
   >
     Vereinssatzung downloaden
+  </v-btn>
+  <v-btn
+    color="secondary"
+    href="./sponsorenmappe.pdf"
+    target="_blank"
+    class="mt-5 mb-10 ml-2"
+  >
+    Sponsorenmappe downloaden
   </v-btn>
 </template>
 
@@ -77,7 +85,7 @@ const news = [
     link: "https://www.fupa.net/news/was-der-sv-winterstettenstadt-besser-gemacht-hat-als-der-fch-2970328?utm_source=fupa&utm_medium=sharebutton&utm_campaign=share_news",
     linkText: "Zum Artikel",
     isNewsletter: false,
-    fullWidth: false,
+    fullWidth: true,
   },
   /*{
     image: "/rbs.svg",
@@ -91,7 +99,7 @@ const news = [
   },*/
   {
     image: "/berichte/fotos/spendenubergabe.jpg",
-    title: "Neujahrsfeier und Spendenübergabe",
+    title: "Neujahrsfeier und Spendenübergabe 2025",
     subtitle: "von Stefan Wiedmann, Schriftführer",
     erschienen: "01.02.2025",
     link: "/newsletter-2.pdf",
@@ -99,7 +107,7 @@ const news = [
     isNewsletter: true,
     fullWidth: false,
   },
-  {
+  /*{
     image: "/berichte/fotos/gv-2024-1.jpeg",
     title: "Dritte Mitgliederversammlung",
     subtitle: "von Stefan Wiedmann, Schriftführer",
@@ -118,7 +126,7 @@ const news = [
     linkText: "Zur Einladung",
     isNewsletter: false,
     fullWidth: false,
-  },
+  },*/
   {
     image: "/flyer-huettenzauber-2025.webp",
     title: "Hüttenzauber 2025 Rückblick",
@@ -128,6 +136,36 @@ const news = [
     linkText: "Zum Bericht",
     isNewsletter: false,
     fullWidth: false,
+  },
+  {
+    image: "/spendenuebergabe-2026-bild.png",
+    title: "Spendenübergabe 2026",
+    subtitle: "von Stefan Wiedmann, 2. Vorstand",
+    erschienen: "01.04.2026",
+    link: "/spendenuebergabe-2026.pdf",
+    linkText: "Zum Bericht",
+    isNewsletter: true,
+    fullWidth: false,
+  },
+  {
+    image: "/nero2.jpg",
+    title: "Einweihung von Pizza-Anhänger 'Nero'",
+    subtitle: "von Stefan Wiedmann, 2. Vorstand",
+    erschienen: "15.10.2026",
+    link: "/nero-einweihung.pdf",
+    linkText: "Zum Bericht",
+    isNewsletter: true,
+    fullWidth: false,
+  },
+  {
+    image: "/huettenzauber-2026-einladung.jpg",
+    title: "Einladung zum Hüttenzauber 2026",
+    subtitle: "von Stefan Wiedmann, 2. Vorstand",
+    erschienen: "13.11.2026",
+    link: "/huettenzauber-2026-einladung.jpg",
+    linkText: "Zum Flyer",
+    isNewsletter: false,
+    fullWidth: true,
   },
 ];
 </script>
