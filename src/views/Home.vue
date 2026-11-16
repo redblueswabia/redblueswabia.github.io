@@ -133,6 +133,16 @@ const news = [
     fullWidth: false,
   },
   {
+    image: "/mitgliederversammlung1.webp",
+    title: "Mitgliederversammlung 2026 Rückblick",
+    subtitle: "von Stefan Wiedmann, 2. Vorstande",
+    erschienen: "01.08.2026",
+    link: "/mitgliederversammlung-26.pdf",
+    linkText: "Zum Bericht",
+    isNewsletter: false,
+    fullWidth: true,
+  },
+  {
     image: "/spendenuebergabe-2026-bild.png",
     title: "Spendenübergabe 2026",
     subtitle: "von Stefan Wiedmann, 2. Vorstand",
